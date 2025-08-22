@@ -3,8 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-    <link rel="stylesheet" href="src/output.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link rel="stylesheet" href="src/output.css"> -->
 
     <!-- 
     run
@@ -12,7 +12,53 @@
     npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
     -->
 </head>
-<body class="bg-blue-300">
-    <h1 class="bg-red-600">Hello world</h1>
+<body class="px-12">
+    <!-- container -->
+    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">Container</h1>
+
+    <div class="container bg-red-100 mx-auto">
+        Alo
+    </div>
+
+    <!-- color -->
+    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center">Color</h1>
+        <!-- màu chữ -->
+        <p class="text-red-400  mb-7">màu chữ (text-red-400)</p>
+        <p class="text-[#ff2547] mb-7">Màu hex (text-[#ff2547])</p>
+        <p class="text-[rgb(0,0,255)] mb-7">Màu hex (text-[rgb(0,0,255)])</p>
+
+        <!-- màu nền -->
+        <p class="bg-blue-300 mb-7">màu nền (bg-blue-300)</p>
+
+        <!-- Border -->
+        <p class="border border-blue-500 mb-7">Viền (border border-blue-500)</p>
+
+        <!-- underline -->
+        <p class="underline decoration-pink-600 mb-7">văn bản gạch chân (underline decoration-pink-600)</p>
+
+        <!-- divide: divide-y, divide-x -->
+        <p class="text-red-700">Đường chia - divide (divide-y divide-yellow-600)</p>
+        <div class="divide-y divide-yellow-600 mb-7">
+            <div>Phần 1</div>
+            <div>Phần 2</div>
+            <div>Phần 3</div>
+        </div>
+
+        <!-- outline -->
+        <button class="outline outline-amber-600 mb-7">outline (outline outline-amber-600)</button>
+
+        <!-- shadow -->
+        <p class="text-red-700 mb-1">shadow (h-offset v-offset blur spread color)</p>
+        <button class="shadow-lg shadow-orange-800/30 mb-7">shadow (shadow-xl shadow-orange-800/50)</button>
+
+        <!-- accent -->
+        <div>
+            <input type="checkbox" class="accent-purple-500/50">
+            <label>accent-purple-500/25</label>
+        </div>
+        <div>
+            <input type="radio" class="accent-red-500/50">
+            <label>accent-red-500/25</label>
+        </div>
 </body>
 </html>
