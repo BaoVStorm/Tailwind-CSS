@@ -1,0 +1,23 @@
+{
+  "name": "01_netninja",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/BaoVStorm/Tailwind-CSS#readme",
+  "bugs": {
+    "url": "https://github.com/BaoVStorm/Tailwind-CSS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaoVStorm/Tailwind-CSS.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build ./src/styles.css -o ./public/styles.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
