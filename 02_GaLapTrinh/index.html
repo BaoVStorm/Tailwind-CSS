@@ -60,5 +60,47 @@
             <input type="radio" class="accent-red-500/50">
             <label>accent-red-500/25</label>
         </div>
+
+     <!-- padding, margin -->
+    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">padding, margin</h1>
+
+        <div class="h-25 w-25 bg-red-900 m-4 text-blue-400"> m-4</div>
+        <div class="h-25 w-25 bg-lime-900 p-4 text-blue-400"> p-4</div>
+        <div class="h-25 w-25 bg-blue-900 -m-8 text-lime-400 opacity-80"> -m-8</div>
+        <div class="h-25 w-25 bg-pink-600 mt-[60px] text-yellow-900"> mt-[60px]</div>
+        
+
+        <!-- underline -->
+        <span class="">- kết hợp với break-point</span>
+        <div class="h-auto w-60 bg-red-300 lg:m-5 text-yellow-900"> lg:m-5
+            <br>
+            <br>
+            Chỉ áp dụng khi w >= 1024 {lg}
+        </div>
+
+        <!-- underline -->
+        <span class="">- thêm khoảng cách của các con</span>
+        <p><strong>space-x-3</strong> : margin-right=3rem</p>
+        <div class="flex space-x-3">
+            <div class="bg-lime-400 outline outline-amber-600">block-01</div>
+            <div class="bg-lime-400 outline outline-amber-600">block-02</div>
+            <div class="bg-lime-400 outline outline-amber-600">block-03</div>
+        </div>
+
+        <p><strong>space-x-reverse</strong> </p>
+        <div class="flex space-x-3 space-x-reverse">
+            <div class="bg-lime-400 outline outline-amber-600">block-01</div>
+            <div class="bg-lime-400 outline outline-amber-600">block-02</div>
+            <div class="bg-lime-400 outline outline-amber-600">block-03</div>
+        </div>
+
+        <p><strong>flex-row-reverse, space-x-reverse</strong> </p>
+        <div class="flex flex-row-reverse space-x-3 space-x-reverse">
+            <div class="bg-lime-400 outline outline-amber-600">block-01</div>
+            <div class="bg-lime-400 outline outline-amber-600">block-02</div>
+            <div class="bg-lime-400 outline outline-amber-600">block-03</div>
+        </div>
+
+    <div class="mb-20"></div>
 </body>
 </html>
