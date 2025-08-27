@@ -70,7 +70,7 @@
         <div class="h-25 w-25 bg-pink-600 mt-[60px] text-yellow-900"> mt-[60px]</div>
         
 
-        <!-- underline -->
+        <!-- break-point -->
         <span class="">- kết hợp với break-point</span>
         <div class="h-auto w-60 bg-red-300 lg:m-5 text-yellow-900"> lg:m-5
             <br>
@@ -78,7 +78,7 @@
             Chỉ áp dụng khi w >= 1024 {lg}
         </div>
 
-        <!-- underline -->
+        <!-- space in child -->
         <span class="">- thêm khoảng cách của các con</span>
         <p><strong>space-x-3</strong> : margin-right=3rem</p>
         <div class="flex space-x-3">
@@ -101,6 +101,57 @@
             <div class="bg-lime-400 outline outline-amber-600">block-03</div>
         </div>
 
-    <div class="mb-20"></div>
+     <!-- sizing_ (w-, h-, min-w-, max-h-) -->
+    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">sizing_ (w-, h-, min-w-, max-h-)</h1>
+        <div class="w-16 bg-amber-200">w-16</div>
+        <br>
+        <div class="w-3xs bg-amber-400">w-3xs</div>
+        <br>
+        <div class="w-1/2 bg-amber-600">w-1/2</div>
+        <br>
+        <div class="w-2/5 bg-amber-500">w-2/5</div>
+        <br>
+        <div class="bg-amber-300 w-[500px]">
+            <div class="w-[30%] bg-red-300">w-[30%]</div>
+        </div>
+        <br>
+        <div class="bg-yellow-300 w-full">w-full : 100%</div>
+        <br>
+        <span class="bg-yellow-300 w-screen    inline-block -ml-16 px-5">w-screen : 100vw</span>        
+        <br><br>
+
+        <strong>auto, max, min</strong>
+        <div class="bg-yellow-300">auto</div>
+        <br>
+        <div class="bg-yellow-300 w-fit">w-fit</div>
+        <br>
+        <div class="bg-yellow-300 w-min">w-min</div>
+        <br>
+        <div class="bg-yellow-300 w-max">w-max (TuNayThemVaoDeTest)</div>
+
+        <br>
+        <strong>same size (h, w)</strong>
+        <div class="size-32 bg-amber-500">size-32 </div>
+        <br>
+        <div class="size-50 bg-amber-300 p-2">
+            <div class="size-full bg-amber-500 "> size-full</div>
+        </div>
+
+        <br>
+        <ul>
+            <strong>mobile</strong>
+            <li>+ w-lvw</li>
+            <li>+ w-svw</li>
+            <li>+ w-dvw</li>
+        </ul>
+
+        <br>
+        <strong>MIN MAX</strong>
+        
+        <div class="bg-red-400 min-w-50">min-w-50</div>
+        <br>
+        <div class="bg-red-400 max-w-60">max-w-60</div>
+
+    <div class="mb-20 "></div>
 </body>
 </html>
