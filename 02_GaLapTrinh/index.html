@@ -12,7 +12,7 @@
     npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
     -->
 </head>
-<body class="px-12">
+<body class="px-12 mb-40">
     <!-- container -->
     <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">Container</h1>
 
@@ -154,7 +154,7 @@
 
     <!-- position -->
     <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">Positioning</h1>
-        Relative
+        relative
         <div class="bg-blue-400">
             <div class="w-20 h-20 relative top-5 left-5 bg-amber-800">
                 top-5 
@@ -165,7 +165,7 @@
 
         <br><br>
 
-        Absolute
+        absolute
         <div class="h-20 bg-yellow-400 relative">
             <div class="w-20 h-20 absolute top-5 left-50 bg-amber-800">
                 top-5 
@@ -186,7 +186,17 @@
             <div class="absolute bg-amber-500 inset-x-5">inset-x-5</div>
         </div>
 
+    <!-- Z-index -->
+    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">Z-index</h1>
+        áp dụng z-index khi phần từ khác position: static
+        <div class="size-50 relative">
+            <div class="size-30 box1 absolute top-0 left-0 bg-amber-300"></div>
+            <div class="size-30 box2 absolute top-5 left-5 bg-lime-300 z-10">z-10</div>
+            <div class="size-30 box3 absolute top-10 left-10 bg-blue-300"></div>
+        </div>
 
-    <div class="mb-20 "></div>
+
+
+
 </body>
 </html>
