@@ -325,8 +325,8 @@
         <div class="border-2 border-dotted p-1">border-dotted</div>
         <br>
 
-    <!-- OutLine (Box Model) -->
-    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">OutLine (Box Model)</h1>
+    <!-- OutLine -->
+    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">OutLine</h1>
         <button class="outline bg-amber-300 p-2">outline</button>
         <br><br>
 
@@ -336,6 +336,30 @@
         outline-inherit, outline-current
         <br><br>
         outline-solid, outline-dotted, outline-dashed
+        <br><br>
+
+    <h1 class="text-blue-600 text-4xl font-bold mx-auto my-6 text-center ">Pseudo-class</h1>
+
+    <!-- Hover (Event) -->
+    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">Hover, Focus, Active</h1>
+        <!-- hover -->
+        <button class="bg-sky-500 p-3 rounded-2xl text-white  hover:bg-sky-600">hover:bg-sky-600</button>
+        <br><br>
+
+        <div class="group bg-blue-300 hover:bg-blue-100">
+            <p class="group-hover:text-amber-600">line 1</p>
+            <div class="group-hover:text-red-800">line 2</div>
+            <a class="group-hover:text-lime-800">line 3</a>
+        </div>
+        <br>
+
+        <!-- focus -->
+        <input class="p-2 outline-2 focus:outline-amber-600" type="text" placeholder="focus:outline-amber-600">
+        <br><br>
+
+        <!-- active -->
+        <button class="bg-sky-500 p-3 rounded-2xl text-white active:bg-sky-600">active:bg-sky-600</button>
+        <br><br>
 
 
 </body>
