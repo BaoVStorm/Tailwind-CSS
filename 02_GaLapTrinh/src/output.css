@@ -10,6 +10,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-100: oklch(93.6% 0.032 17.717);
+    --color-red-200: oklch(88.5% 0.062 18.334);
     --color-red-300: oklch(80.8% 0.114 19.571);
     --color-red-400: oklch(70.4% 0.191 22.216);
     --color-red-500: oklch(63.7% 0.237 25.331);
@@ -411,6 +412,10 @@
     width: calc(var(--spacing) * 70);
     height: calc(var(--spacing) * 70);
   }
+  .size-80 {
+    width: calc(var(--spacing) * 80);
+    height: calc(var(--spacing) * 80);
+  }
   .size-full {
     width: 100%;
     height: 100%;
@@ -424,8 +429,17 @@
   .h-35 {
     height: calc(var(--spacing) * 35);
   }
+  .h-40 {
+    height: calc(var(--spacing) * 40);
+  }
+  .h-60 {
+    height: calc(var(--spacing) * 60);
+  }
   .h-auto {
     height: auto;
+  }
+  .h-screen {
+    height: 100vh;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
@@ -450,6 +464,12 @@
   }
   .w-25 {
     width: calc(var(--spacing) * 25);
+  }
+  .w-40 {
+    width: calc(var(--spacing) * 40);
+  }
+  .w-50 {
+    width: calc(var(--spacing) * 50);
   }
   .w-60 {
     width: calc(var(--spacing) * 60);
@@ -528,6 +548,9 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .space-x-3 {
     :where(& > :not(:last-child)) {
@@ -691,6 +714,9 @@
   .bg-\[\/public\/imgas\] {
     background-color: /public/imgas;
   }
+  .bg-\[url\] {
+    background-color: url;
+  }
   .bg-amber-200 {
     background-color: var(--color-amber-200);
   }
@@ -738,6 +764,9 @@
   }
   .bg-red-100 {
     background-color: var(--color-red-100);
+  }
+  .bg-red-200 {
+    background-color: var(--color-red-200);
   }
   .bg-red-300 {
     background-color: var(--color-red-300);
@@ -854,8 +883,20 @@
     --tw-gradient-position: to top in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
+  .bg-\[url\(\'https\:\/\/placehold\.co\/30x30\'\)\] {
+    background-image: url('https://placehold.co/30x30');
+  }
+  .bg-\[url\(\'https\:\/\/placehold\.co\/60x30\'\)\] {
+    background-image: url('https://placehold.co/60x30');
+  }
+  .bg-\[url\(\'https\:\/\/placehold\.co\/70x70\'\)\] {
+    background-image: url('https://placehold.co/70x70');
+  }
   .bg-\[url\(\'https\:\/\/placehold\.co\/250x250\'\)\] {
     background-image: url('https://placehold.co/250x250');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
   }
   .bg-\[url\(\/public\/img\/images\.png\)\] {
     background-image: url(/public/img/images.png);
@@ -899,6 +940,51 @@
   .to-yellow-400 {
     --tw-gradient-to: var(--color-yellow-400);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .bg-auto {
+    background-size: auto;
+  }
+  .bg-contain {
+    background-size: contain;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-size-\[\(50\)\] {
+    background-size: (50);
+  }
+  .bg-size-\[50\%\] {
+    background-size: 50%;
+  }
+  .bg-size-\[50\%_6\] {
+    background-size: 50% 6;
+  }
+  .bg-size-\[50\%_80\%\] {
+    background-size: 50% 80%;
+  }
+  .bg-size-\[60\%_80\%\] {
+    background-size: 60% 80%;
+  }
+  .bg-size-\[80\%\] {
+    background-size: 80%;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .bg-repeat {
+    background-repeat: repeat;
+  }
+  .bg-repeat-round {
+    background-repeat: round;
+  }
+  .bg-repeat-space {
+    background-repeat: space;
+  }
+  .bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .bg-repeat-y {
+    background-repeat: repeat-y;
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);
