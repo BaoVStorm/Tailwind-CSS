@@ -392,29 +392,13 @@
     width: calc(var(--spacing) * 50);
     height: calc(var(--spacing) * 50);
   }
-  .size-52 {
-    width: calc(var(--spacing) * 52);
-    height: calc(var(--spacing) * 52);
-  }
   .size-53 {
     width: calc(var(--spacing) * 53);
     height: calc(var(--spacing) * 53);
   }
-  .size-55 {
-    width: calc(var(--spacing) * 55);
-    height: calc(var(--spacing) * 55);
-  }
   .size-60 {
     width: calc(var(--spacing) * 60);
     height: calc(var(--spacing) * 60);
-  }
-  .size-70 {
-    width: calc(var(--spacing) * 70);
-    height: calc(var(--spacing) * 70);
-  }
-  .size-80 {
-    width: calc(var(--spacing) * 80);
-    height: calc(var(--spacing) * 80);
   }
   .size-full {
     width: 100%;
@@ -429,17 +413,14 @@
   .h-35 {
     height: calc(var(--spacing) * 35);
   }
-  .h-40 {
-    height: calc(var(--spacing) * 40);
+  .h-50 {
+    height: calc(var(--spacing) * 50);
   }
   .h-60 {
     height: calc(var(--spacing) * 60);
   }
   .h-auto {
     height: auto;
-  }
-  .h-screen {
-    height: 100vh;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
@@ -468,26 +449,14 @@
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
-  .w-50 {
-    width: calc(var(--spacing) * 50);
-  }
   .w-60 {
     width: calc(var(--spacing) * 60);
   }
+  .w-90 {
+    width: calc(var(--spacing) * 90);
+  }
   .w-\[30\%\] {
     width: 30%;
-  }
-  .w-\[80px\] {
-    width: 80px;
-  }
-  .w-\[80vw\] {
-    width: 80vw;
-  }
-  .w-\[85vw\] {
-    width: 85vw;
-  }
-  .w-\[90vw\] {
-    width: 90vw;
   }
   .w-\[500px\] {
     width: 500px;
@@ -548,9 +517,6 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
-  }
-  .gap-20 {
-    gap: calc(var(--spacing) * 20);
   }
   .space-x-3 {
     :where(& > :not(:last-child)) {
@@ -693,30 +659,6 @@
   .border-transparent {
     border-color: transparent;
   }
-  .bg-\[\/\] {
-    background-color: /;
-  }
-  .bg-\[\/public\/\] {
-    background-color: /public/;
-  }
-  .bg-\[\/public\/images\/\] {
-    background-color: /public/images/;
-  }
-  .bg-\[\/public\/img\/\] {
-    background-color: /public/img/;
-  }
-  .bg-\[\/public\/img\/images\.png\] {
-    background-color: /public/img/images.png;
-  }
-  .bg-\[\/public\/img\/img\] {
-    background-color: /public/img/img;
-  }
-  .bg-\[\/public\/imgas\] {
-    background-color: /public/imgas;
-  }
-  .bg-\[url\] {
-    background-color: url;
-  }
   .bg-amber-200 {
     background-color: var(--color-amber-200);
   }
@@ -786,34 +728,6 @@
   .bg-yellow-400 {
     background-color: var(--color-yellow-400);
   }
-  .bg-linear-40 {
-    --tw-gradient-position: 40deg;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: 40deg in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-linear-60 {
-    --tw-gradient-position: 60deg;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: 60deg in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-linear-65 {
-    --tw-gradient-position: 65deg;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: 65deg in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-linear-85 {
-    --tw-gradient-position: 85deg;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: 85deg in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
   .bg-linear-90 {
     --tw-gradient-position: 90deg;
     @supports (background-image: linear-gradient(in lab, red, red)) {
@@ -821,58 +735,8 @@
     }
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
-  .bg-linear-120 {
-    --tw-gradient-position: 120deg;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: 120deg in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-linear-180 {
-    --tw-gradient-position: 180deg;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: 180deg in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-linear-865 {
-    --tw-gradient-position: 865deg;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: 865deg in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-linear-to-bl {
-    --tw-gradient-position: to bottom left;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: to bottom left in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-linear-to-r {
-    --tw-gradient-position: to right;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: to right in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-linear-to-t {
-    --tw-gradient-position: to top;
-    @supports (background-image: linear-gradient(in lab, red, red)) {
-      --tw-gradient-position: to top in oklab;
-    }
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
   .bg-gradient-to-bl {
     --tw-gradient-position: to bottom left in oklab;
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-gradient-to-br {
-    --tw-gradient-position: to bottom right in oklab;
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-  .bg-gradient-to-l {
-    --tw-gradient-position: to left in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
   .bg-gradient-to-r {
@@ -883,30 +747,17 @@
     --tw-gradient-position: to top in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\'https\:\/\/placehold\.co\/30x30\'\)\] {
-    background-image: url('https://placehold.co/30x30');
-  }
-  .bg-\[url\(\'https\:\/\/placehold\.co\/60x30\'\)\] {
-    background-image: url('https://placehold.co/60x30');
-  }
   .bg-\[url\(\'https\:\/\/placehold\.co\/70x70\'\)\] {
     background-image: url('https://placehold.co/70x70');
   }
   .bg-\[url\(\'https\:\/\/placehold\.co\/250x250\'\)\] {
     background-image: url('https://placehold.co/250x250');
   }
-  .bg-\[url\(\)\] {
-    background-image: url();
-  }
   .bg-\[url\(\/public\/img\/images\.png\)\] {
     background-image: url(/public/img/images.png);
   }
   .from-blue-500 {
     --tw-gradient-from: var(--color-blue-500);
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-  .from-lime-400 {
-    --tw-gradient-from: var(--color-lime-400);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .from-lime-500 {
@@ -929,10 +780,6 @@
     --tw-gradient-to: var(--color-pink-400);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
-  .to-pink-500 {
-    --tw-gradient-to: var(--color-pink-500);
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
   .to-red-500 {
     --tw-gradient-to: var(--color-red-500);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -950,23 +797,32 @@
   .bg-cover {
     background-size: cover;
   }
-  .bg-size-\[\(50\)\] {
-    background-size: (50);
-  }
-  .bg-size-\[50\%\] {
-    background-size: 50%;
-  }
-  .bg-size-\[50\%_6\] {
-    background-size: 50% 6;
-  }
-  .bg-size-\[50\%_80\%\] {
-    background-size: 50% 80%;
-  }
   .bg-size-\[60\%_80\%\] {
     background-size: 60% 80%;
   }
-  .bg-size-\[80\%\] {
-    background-size: 80%;
+  .bg-bottom-left {
+    background-position: left bottom;
+  }
+  .bg-bottom-right {
+    background-position: right bottom;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-left {
+    background-position: left;
+  }
+  .bg-right {
+    background-position: right;
+  }
+  .bg-top {
+    background-position: top;
+  }
+  .bg-top-left {
+    background-position: left top;
+  }
+  .bg-top-right {
+    background-position: right top;
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
@@ -1007,12 +863,6 @@
   .text-center {
     text-align: center;
   }
-  .align-middle {
-    vertical-align: middle;
-  }
-  .align-text-bottom {
-    vertical-align: text-bottom;
-  }
   .font-courgette {
     font-family: var(--font-courgette);
   }
@@ -1036,10 +886,6 @@
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
-  .text-sm {
-    font-size: var(--text-sm);
-    line-height: var(--tw-leading, var(--text-sm--line-height));
-  }
   .text-xs {
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
@@ -1047,9 +893,6 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
-  }
-  .whitespace-break-spaces {
-    white-space: break-spaces;
   }
   .text-\[\#ff2547\] {
     color: #ff2547;
