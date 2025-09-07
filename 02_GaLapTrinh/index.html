@@ -910,13 +910,53 @@
             <div class="bg-blue-500 text-white border px-3 py-1 grow-3">grow-3</div>
         </div>
         <br><br>
-        <strong>flex</strong>
+        <strong>flex: grow + shrink + basis</strong>
         <div class="flex bg-cyan-200 h-[100px]">
             <div class="bg-blue-500 text-white border px-3 py-1 flex-1">flex-1</div>
             <div class="bg-blue-500 text-white border px-3 py-1 flex-1">flex-1</div>
             <div class="bg-blue-500 text-white border px-3 py-1 flex-2">flex-2</div>
             <div class="bg-blue-500 text-white border px-3 py-1 flex-2">flex-2</div>
             <div class="bg-blue-500 text-white border px-3 py-1 flex-3">flex-3</div>
+        </div>
+
+    <!-- flex-shrink -->
+    <h1 class="text-red-600 text-4xl mx-auto my-6 text-center ">flex-shrink, flex-basis</h1>
+        <p>quyết định mức độ 1 item co nhỏ lại theo trục chính khi flex container bị thiếu chỗ</p>
+        <br>
+        <strong>shrink-0</strong>
+        <div class="flex bg-cyan-200 h-[100px]">
+            <div class="bg-blue-500 text-white border px-3 py-1 w-60 shrink-0"><strong>shrink-0</strong></div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-60 shrink-0"><strong>shrink-0</strong></div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-60">Block 3</div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-60">Block 4</div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-60">Block 5</div>
+        </div>
+        <br><br>
+        <strong>shrink-number</strong>
+        <div class="flex bg-cyan-200 h-[100px]">
+            <div class="bg-blue-500 text-white border px-3 py-1 w-65 shrink-0">shrink-0</div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-65 shrink-1">shrink-1</div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-65 shrink-2">shrink-2</div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-65 shrink-3">shrink-3</div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-65 shrink-4">shrink-4</div>
+        </div>
+        <br><br>
+        <strong>flex-basis</strong>
+        <div class="flex bg-cyan-200 h-[100px]">
+            <div class="bg-blue-700 text-white border px-3 py-1 w-50 basis-1/2">basis-1/2</div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-50"></div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-50"></div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-50"></div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-50"></div>
+        </div>
+        <br><br>
+        <strong>basis-full: chiếm hết khoảng trống còn lại</strong>
+        <div class="flex bg-cyan-200 h-[100px]">
+            <div class="bg-blue-700 text-white border px-3 py-1 w-50 basis-full">basis-full</div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-50"></div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-50"></div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-50"></div>
+            <div class="bg-blue-500 text-white border px-3 py-1 w-50"></div>
         </div>
 
 
