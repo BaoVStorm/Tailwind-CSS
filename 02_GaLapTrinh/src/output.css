@@ -286,6 +286,12 @@
   .order-last {
     order: 9999;
   }
+  .col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+  .col-start-2 {
+    grid-column-start: 2;
+  }
   .float-left {
     float: left;
   }
@@ -637,6 +643,51 @@
   .columns-\[value\] {
     columns: value;
   }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .grid-cols-\[10\] {
+    grid-template-columns: 10;
+  }
+  .grid-cols-\[100px\] {
+    grid-template-columns: 100px;
+  }
+  .grid-cols-\[100px_200\] {
+    grid-template-columns: 100px 200;
+  }
+  .grid-cols-\[100px_200px_150px\] {
+    grid-template-columns: 100px 200px 150px;
+  }
+  .grid-cols-\[100px_200px_\] {
+    grid-template-columns: 100px 200px ;
+  }
+  .grid-cols-\[repe\] {
+    grid-template-columns: repe;
+  }
+  .grid-cols-\[repeat\(\)\] {
+    grid-template-columns: repeat();
+  }
+  .grid-cols-\[repeat\(3\,\)\] {
+    grid-template-columns: repeat(3,);
+  }
+  .grid-cols-\[repeat\(3\,200px\)\] {
+    grid-template-columns: repeat(3,200px);
+  }
+  .grid-cols-\[repete\] {
+    grid-template-columns: repete;
+  }
+  .grid-cols-\[value\] {
+    grid-template-columns: value;
+  }
+  .grid-cols-none {
+    grid-template-columns: none;
+  }
+  .grid-cols-subgrid {
+    grid-template-columns: subgrid;
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -711,6 +762,9 @@
   }
   .justify-stretch {
     justify-content: stretch;
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);

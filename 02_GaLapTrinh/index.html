@@ -1001,6 +1001,56 @@
             <div class="bg-blue-500 text-white border px-3 py-1">Block4</div>
             <div class="bg-blue-500 text-white border px-3 py-1">Block5</div>
         </div>
+        <br><br>
+
+        <strong>grid-cols-number</strong> = grid-template-columns: repeat(number, minmax(0, 1fr)) <br>
+        grid-cols-3
+        <div class="grid grid-cols-3 bg-cyan-400">
+            <div class="bg-blue-500 text-white border px-3 py-1">Block1 - temp</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block2</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block3</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block4</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block5</div>
+        </div>
+        <br><br>
+        <strong>grid-cols-none (default)</strong> <br>
+        <div class="grid grid-cols-none bg-cyan-400">
+            <div class="bg-blue-500 text-white border px-3 py-1">Block1 - temp</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block2</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block3</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block4</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block5</div>
+        </div>
+        <br><br>
+        <strong>grid-cols-[100px_200px_150px]</strong> <br>
+        <div class="grid grid-cols-[100px_200px_150px] bg-cyan-400">
+            <div class="bg-blue-500 text-white border px-3 py-1">Block1 - temp</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block2</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block3</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block4</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block5</div>
+        </div>
+        <br><br>
+        <strong>grid-cols-[repeat(3,200px)]</strong> <br>
+        <div class="grid grid-cols-[repeat(3,200px)] bg-cyan-400">
+            <div class="bg-blue-500 text-white border px-3 py-1">Block1 - temp</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block2</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block3</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block4</div>
+            <div class="bg-blue-500 text-white border px-3 py-1">Block5</div>
+        </div>
+        <br><br>
+        <strong>grid-cols-subgrid</strong> <br>
+        <div class="grid grid-cols-4 gap-4">
+            <div class="border">1</div>
+            <div class="border">2</div>
+            <div class="border">3</div>
+            <div class="border">4</div>
+            <div class="border">5</div>
+            <div class="col-span-3 grid grid-cols-subgrid gap-4">
+                <div class="border col-start-2">6</div>
+            </div>
+        </div>
 
 
 </body>
