@@ -38,6 +38,7 @@
     --color-lime-900: oklch(40.5% 0.101 131.063);
     --color-green-400: oklch(79.2% 0.209 151.711);
     --color-cyan-200: oklch(91.7% 0.08 205.041);
+    --color-cyan-400: oklch(78.9% 0.154 211.53);
     --color-sky-500: oklch(68.5% 0.169 237.323);
     --color-sky-600: oklch(58.8% 0.158 241.966);
     --color-blue-100: oklch(93.2% 0.032 255.585);
@@ -381,6 +382,9 @@
   .flex {
     display: flex;
   }
+  .grid {
+    display: grid;
+  }
   .hidden {
     display: none;
   }
@@ -389,6 +393,9 @@
   }
   .inline-block {
     display: inline-block;
+  }
+  .inline-grid {
+    display: inline-grid;
   }
   .table {
     display: table;
@@ -910,6 +917,9 @@
   }
   .bg-cyan-200 {
     background-color: var(--color-cyan-200);
+  }
+  .bg-cyan-400 {
+    background-color: var(--color-cyan-400);
   }
   .bg-lime-300 {
     background-color: var(--color-lime-300);
